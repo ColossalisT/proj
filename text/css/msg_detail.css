@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.msg{
+	width:90%;
+	margin:10px auto;
+}
+.msg h3{
+    width: 90%;
+	margin-top:10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+.msg span{
+	color:#9F9F9F;
+    width: 90%;
+	margin:10px auto;
+    display: inline-block;
+    text-align: center;
+	font-size:14px;
+}
+.msg p{
+	text-align:left;
+	text-indent:2em;
+    width: 85%;
+	margin:5px auto;
+	color:#3e3e3e;
+	font-size:14px;
+	line-height:1.5em;
+}

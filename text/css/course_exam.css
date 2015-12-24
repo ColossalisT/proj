@@ -1,0 +1,118 @@
+
+section{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.xz a p{
+    color: #ea545d;
+}
+.ms{
+    width: 100%;
+    background: #fff;
+}
+
+.ms li{
+    width: 95%;
+    display: inline-block;
+    text-align: left;
+     padding: 2px 0px;
+}
+.ms li span{
+    width: 90%;
+    font-size: 13px;
+   
+   
+}
+.daan{
+    background: #fff;
+    width: 100%;
+    margin-top: 3px;
+    
+}
+.daan a p{
+    width: 95%;
+    line-height: 20px;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: left;
+}
+footer{
+    width: 80%;
+    display: inline-block;
+    background-color: #ea545d;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+footer a{
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;   
+}
+#certificate{
+	z-index:8999;
+	position:absolute;
+	width: 80%;
+	height:40%;
+	padding:60px 15px;
+	border:1px solid red;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #666;
+	text-align:center;
+	display:none;
+	color: #444;
+	top: 20%;
+	left:5.5%;
+}
+.body_show{
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin:0;
+	width: 100%;
+	height: 105%;
+	background: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;	
+}
+.close{
+	width:60%;
+	height:15%;
+	background-color: #4D90FE;
+	background: -webkit-linear-gradient(top, #4D90FE, #4787ED);
+	background: -moz-linear-gradient(top, #4D90FE, #4787ED);
+	background: linear-gradient(top, #4D90FE, #4787ED);
+}
+.certificate_div{
+	max-width:%;
+	display:block;
+	height: 78.125%;
+	background: url(../images/Certificate.png) no-repeat center /99.5% 100% ;
+}
+.certificate_info{
+	width:83%;
+	height:80%;
+	text-align:left;
+	margin:auto;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

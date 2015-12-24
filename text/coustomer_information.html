@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,c hrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+    <title>学习达人</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/coustomer_information.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <header>
+		<a href="javascript:window.history.back();" style="float:left;margin-left:2%; cursor:pointer;"><img src="images/return.png" width="20" height="20"></a>
+        <p>我的信息</p>
+        <!--点击刷新本页面-->
+        <a href="#"><img src="images/Refresh.png" width="20" height="20"> </a>
+        </header>
+        <center>
+        <section>
+       <div class="list">
+    <a href="#">
+       <div class="icon_tou">
+             <img src="images/icon_tx001.png" width="70" height="70">
+        </div>
+<!--下拉时显示向上箭头.既icon_top.未点击时显示右箭头.既icon_right 箭头更换时.图片大小对换-->
+    <ul>
+            <li>
+                <h1>电商智慧宝</h1>
+            </li>
+            <li>
+<span>电商智慧宝电商智慧宝电商智慧宝</span>
+                </li>
+        </ul>
+                </a>
+             </div>         
+        </section>
+            <section class="my_shezhi">
+                <a href="#">
+            <div>
+            <img src="images/icon_man.png">
+                <p>男宝宝</p>
+                </div>
+                </a>
+            </section>
+    
+<!--下拉时显示向上箭头.既icon_top.未点击时显示右箭头.既icon_right 箭头更换时.图片大小对换-->
+<script type="text/javascript">
+	$(function(){
+		$("#btnShow").bind("click",function(){
+			//下拉菜单，右箭头显示效果
+			var $dval = $("#div_icon");
+			//alert($dval.val());
+			if($dval.val()==0){
+				$dval.css("background-image","url(images/icon_top.png)");
+				$dval.val(1);
+			}else{
+				$dval.css("background-image","url(images/icon_right.png)");
+				$dval.val(0);
+			}
+			//下拉滑动特效
+			$("#hidden").slideToggle(1500,function(){
+				//选中事件
+				$(".top_xl").bind("click",function(){
+				  $(".top_xl").removeClass("xz");
+					var $this = $(this);
+					if($this.val()==0){
+						$this.addClass("xz");
+						$this.val(1);
+						$("#div_icon>p").html($this.html());	
+					}else{
+						$this.removeClass("xz");
+						$this.val(0);
+					}
+				});
+			});
+			//当点击回收菜单时，清除选中的样式
+			$(".top_xl").each(function(){
+				$(this).removeClass("xz");
+			});
+		});
+	});
+</script>
+            <section id="btnShow" class="my_shezhi1">
+                <a href="#"> 
+            <div id="div_icon" value="0">
+            <img src="images/time.png">
+                <p>0~3个月</p>
+                </div>
+                </a>
+            </section>            
+<!--点击弹出下拉列表.填完点击收回 -->          
+    <div id="hidden" style="display:none;">
+		<a href="#">
+            <section class="top_xl" value="0">
+    <p>0~3个月</p>
+            </section>
+            </a>
+    <!-- 选中时代入 "xz" .字体颜色变成白色-->
+             <a href="#">
+            <section class="top_xl" value="0">
+    <p>3~6个月</p>
+            </section>   
+            </a>
+             <a href="#">
+            <section class="top_xl" value="0">
+    <p>6~9个月</p>
+            </section>   
+            </a>
+             <a href="#">
+            <section class="top_xl" value="0">
+    <p>9~12个月</p>
+            </section> 
+            </a>
+             <a href="#">
+            <section class="top_xl" value="0">
+    <p>12~18个月</p>
+            </section>
+            </a>
+			 <a href="#">
+            <section class="top_xl" value="0">
+    <p>18~24个月</p>
+            </section>
+            </a>
+	</div>
+            
+            <section class="my_shezhi">
+                <a href="#">
+            <div>
+            <img src="images/Pictures.png">
+                <p>相册</p>
+                </div>
+                </a>
+            </section>
+			<section class="my_shezhi">
+                <a href="coustomer_info_detail.html">
+            <div>
+            <img src="images/icon_x.png">
+                <p>我的关注</p>
+                </div>
+                </a>
+            </section>
+            <section class="my_xiangxi">
+                <a href="#">
+            <div>
+            <img src="images/icon_q.png">
+                <p>账户</p>
+                </div>
+                </a>
+            </section>
+            <section class="my_xiangxi">
+            <div>
+            <img src="images/icon_j.png">
+    <p>积分:&nbsp;<span style="float:right;margin-right:1%;">12</span></p>
+                </div>
+            </section>
+            <section class="my_shezhi">
+                <a href="#">
+            <div>
+            <img src="images/icon_s.png">
+                <p>设置</p>
+                </div>
+                </a>
+            </section>
+    </center>
+    </body>
+    
+	
+ 

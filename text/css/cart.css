@@ -1,0 +1,332 @@
+
+article{
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    margin-bottom: 2px;
+}
+.container{
+    margin-bottom: 8%;
+}
+.icon_tou{
+    float: left;
+    width:  70px;
+    height: 70px;
+    margin-left: 7px;
+}
+.list{
+    display: inline-block;
+    width: 100%;
+    padding: 8px 0;
+}
+.merch_info{
+    margin-top: 5px;
+}
+.merch_info ul{
+    width: 71%;
+    display: inline-block;
+    margin-right: 3%;
+    float: right;
+}
+.list_one{
+    width: 97%;
+    display: inline-block;
+    margin-top: -7px;
+}
+.list_one span{
+    color:#919191;
+    font-size: 12px;
+    float: left;
+    margin-left: 8%;
+}
+.list_three .comp{
+    float:left;
+}
+.list_three .time{
+    float: right;
+    line-height: 10px;
+}
+.list_three .state{
+    float: right;
+
+}
+.list_three span{
+    font-size: 12px;
+    color: #919191;
+    text-align: left;
+}
+.list_one .hwrapper{
+    height: 28px;
+    float: left;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+}
+.list_one .hwrapper h1{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 400;
+    color: #3e3e3e;
+    font-size: 14px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.list_two{
+    font-size: 10px;
+    color: #919191;
+}
+.list_two .amount{
+    margin-left: 10px;
+}
+.fl{
+    display: inline-block;
+    float: left;
+    left: 0;
+}
+.fr{
+    display: inline-block;
+    float: right;
+    right: 0;
+}
+.addr_info .l_1,.addr_info .l_2{
+    width: 98%;
+    clear:both;
+}
+.addr_info .l_1{
+    line-height: 24px;
+}
+.black{
+    width: 100%;
+    height: 90px;
+    background-color: #3e3e3e;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 15px;
+}
+.black h1{
+    font-weight: 400;
+}
+.address{
+    background-color: #fff;
+    width: 100%;
+    color: #3e3e3e;
+    display: inline-block;
+    margin-bottom: 3px;
+    border-bottom: 1px #e4e4e2 solid;
+}
+.address .icon{
+    width: 48px;
+    height: 60px;
+    float: left;
+    background: url("../images/location.png")center right 5px no-repeat;
+    background-size: 14px 19px;
+}
+.address .addr_info{
+    width: 77%;
+    font-size: 10px;
+    float: right;
+    margin-right: 5%;
+}
+.shunfeng{
+    width: 100%;
+    height: 7%;
+}
+.shunfeng p{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #ea545d;
+    color: #fff;
+    font-size: 12px;
+    line-height: 36px;
+}
+.order{
+    width: 100%;
+    background-color: #fff;
+    font-size: 10px;
+    margin-top: 2px;
+}
+.ctrl_btn{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 22px;
+}
+.ctrl_btn .btn_wrapper{
+    width: 78%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.ctrl_btn .btn_wrapper1{
+    width: 93%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.ctrl_btn .btn_wrapper .cancel{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #919191;
+    float: left;
+    width: 47%;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    color: #3e3e3e;
+}
+.ctrl_btn .btn_wrapper .confirm{
+    background-color: #ea545d;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+    width: 47%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.ctrl_btn .btn_wrapper1 .delete{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #919191;
+    float: left;
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    color: #3e3e3e;
+}
+.order div{
+    width: 93%;
+    margin: 0 auto;
+    color:#919191;
+}
+#floatbox{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+#floatbox .mask{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 999;
+}
+#floatbox .box{
+    display: block;
+    position: absolute;
+    width: 82%;
+    height: 100px;
+    top: 41%;
+    left: 9%;
+    z-index: 9999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    padding-bottom: 10px;
+}
+#floatbox .box p{
+    text-align: center;
+    font-size: 12px;
+    color: #3e3e3e;
+    margin-top: 20px;
+}
+#floatbox .box .btn_wrapper{
+    width: 92%;
+    margin: 22px auto 10px auto;
+    font-size: 14px;
+}
+#floatbox .box .btn_wrapper a{
+    display: block;
+    font-size: 14px;
+    width: 47%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#floatbox .box .btn_wrapper .close_btn{
+    float: left;
+    color: #3e3e3e;
+    height: 33px;
+    border: 1px solid #919191;
+    text-align: center;
+    line-height: 35px;
+}
+#floatbox .box .btn_wrapper .confirm_btn{
+    float: right;
+    height: 35px;
+    background-color: #ea545d;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+}
+.list_one .hwrapper1{
+    height: 28px;
+    float: left;
+    margin-top: 15px;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+}
+.list_one .hwrapper1 h1{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 400;
+    color: #3e3e3e;
+    font-size: 14px;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.edit{
+    width: 100%;
+    height: 174px;
+    background-color: #fff;
+    border-top: 1px solid #ebebeb;
+}
+.edit textarea{
+    overflow: auto;
+    border: none;
+    width: 96%;
+    padding: 12px 5px;
+    margin: 0 auto;
+    display: block;
+    height: 150px;
+    text-indent: 2em;
+    color:#3e3e3e;
+}
+.edit_btn{
+    width: 100%;
+    position: absolute;
+    bottom: 70px;
+}
+
+
+.list_two .state_btn{
+    width: 32%;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    text-align: center;
+    color: #ea545d;
+    float: right;
+    margin-right: 10px;
+    margin-top: -9px;
+    border: 1px solid #ea545d;
+    -webkit-border-radius: 2.5px;
+    -moz-border-radius: 2.5px;
+    border-radius: 2.5px;
+}

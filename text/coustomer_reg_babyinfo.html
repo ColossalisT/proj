@@ -1,0 +1,95 @@
+ <!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+    <title>学习达人</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/man_or_woman.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <header>
+<script>
+
+</script>
+		<a href="javascript:window.history.back();" style="float:left;margin-left:2%; cursor:pointer;"><img src="images/return.png" width="20" height="20"></a>
+        <p>注册</p>
+<!-- 点击刷新本页面 -->
+        <a href="#"><img src="images/Refresh.png" width="20" height="20"> </a>
+        </header>
+        <center>
+<!-- 点击头像，头像加亮 -->
+<script type="text/javascript">
+	$(function(){
+	     var $girl_icon = $("#girl_icon");
+		 var $boy_icon =$("#boy_icon");
+		$("#girl_icon").bind("click",function(){
+			//alert("0000");
+			if($girl_icon.val() == 0){
+					$girl_icon.attr("src","images/icon_woman1.png");
+					$boy_icon.attr("src","images/icon_manh.png");
+				    $girl_icon.val(1);
+			}else{
+				$girl_icon.attr("src","images/icon_womanh.png");
+				$boy_icon.attr("src","images/icon_man1.png");
+				$girl_icon.val(0);
+			}
+		});
+		$("#boy_icon").bind("click",function(){
+			//alert("0000");
+			if($boy_icon.val() == 0){
+				$boy_icon.attr("src","images/icon_man1.png");
+				$girl_icon.attr("src","images/icon_womanh.png");
+				$boy_icon.val(1);
+			}else{
+				$boy_icon.attr("src","images/icon_manh.png");
+				$girl_icon.attr("src","images/icon_woman1.png");
+				$boy_icon.val(0);
+			}
+		});
+	});
+</script>
+        <section>
+            <div class="tx">
+                <div>
+					<a href="#">
+						<img id="girl_icon" src="images/icon_womanh.png" value="0">
+                    </a>
+					<a href="#">                    
+						<img id="boy_icon" src="images/icon_manh.png" value="0">
+                    </a>
+                </div>
+			<div>
+<!-- heienken 2015-9-19 --
+    宝贝年龄combo选择，0～3个月；3～6个月；6～9个月；9～12个月；12～18个月；18个月～24个月；24个月以上
+-------------------------->
+            <p>宝贝年龄</p>
+<select>		
+<option value="">请选择年龄</option>
+<option value="1985">0～3个月</option>
+<option value="1986">3～6个月</option>
+<option value="1987">6～9个月</option>
+<option value="1988">9～12个月</option>
+<option value="1989">12～18个月</option>
+<option value="1990">18个月～24个月</option>
+<option value="1991">24个月以上</option>
+            </select>
+                </div>
+            </div>
+        </section>
+            <footer>
+<!-- heienken 2015-9-19 --
+    完成后及完成注册
+-------------------------->
+            <a href="my_information.html">完成</a>
+            </footer>
+            </center>
+      
+    </body>
+	

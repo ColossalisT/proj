@@ -1,0 +1,110 @@
+
+section{
+    width: 100%;
+    display: inline-block;
+}
+.sec_top{
+    width: 100%;
+    float: left;
+    border-bottom: 2px solid #fff;
+    line-height: 17px;
+    background-color: #000;
+}
+.sec_top p{
+    display: inline-block;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+}
+.sec_top span{
+    color: #ea545d;
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.sec_Sequence{
+    width: 100%;
+    line-height: 15px;
+    background-color: #000;
+    float: left;
+}
+.sec_Sequence li{
+    width: 13%;
+    display: inline-block; 
+    color: #fff;
+    font-size: 12px;
+}
+.sec_dl{
+    width: 93%;
+    display: inline-block;   
+    background: #fff;
+    padding: 10px;
+    margin-top: 3px;
+}
+.sec_dl dt{
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+.sec_dl dd{
+    color: #919191;
+    width: 100%;
+    line-height: 20px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: left;
+    line-height: 25px;
+ }
+.ms{
+    width: 100%;
+    background: #fff;
+    margin: 3px 0;
+}
+
+.ms li{
+    width: 90%;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 10px;
+}
+.ms li p{
+    width: 90%;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.ms li span{
+    width: 90%;
+    font-size: 13px;
+}
+.daan{
+    background: #fff;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.daan a p{
+    width: 95%;
+    line-height: 20px;
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: left;
+}
+.xz a p{
+    color: #ea545d;
+}
+footer{
+    width: 70%;
+    display:  inline-block;
+    background-color: #ea545d;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+footer a{
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+}

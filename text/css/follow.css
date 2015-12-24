@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+.list{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.icon_tou{
+    float: left;
+    width:  70px;
+    height: 70px;
+    margin-left: 7px;
+}
+section ul{
+    width: 73%;
+    display: inline-block;
+    margin-left: 7px;
+}
+.list_one{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+.list_one h1{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+.list_one span{
+    color:#ea545d;
+    font-size: 12px;
+	display:inline-block;
+}
+.list_tow span{
+    font-size: 12px;
+    text-align: left;
+    color: #919191;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+}

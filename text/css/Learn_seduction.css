@@ -1,0 +1,69 @@
+section{
+    width: 100%;
+    display: inline-block;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+section div{
+    display: inline-block;
+    width: 100%;
+    padding: 4px 0 2px 0;
+}
+
+.icon_tou{
+    float: left;
+    width:  70px;
+    height: 70px;
+    margin-left: 7px;
+}
+section ul{
+    width: 73%;
+    float: left;
+    margin-left: 7px;
+}
+.box_cenner{
+    width: 70%;
+    float: left;
+    text-align: left;
+}
+.biaoti{
+    font-size: 18px;
+    width: 100%;
+    margin-top: 5px;
+}
+.box_cenner span{
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    width: 100%;
+}
+.ks{
+    display: inline-block;
+    font-size: 14px;
+    width: 50%;
+    float: left;
+    color: #f28690;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.box_right{
+    float: right;
+    width: 29%;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+}
+.box_right span{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+.xz .ks{
+    color: #eb6971;
+}
+
+.xz{
+    background-color: #f0f0f0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,87 @@
+
+.explain{
+    width: 100%;
+    height: auto;
+    background-color:#fff;
+    margin:3px 0;
+}
+.explain h1{
+    width: 80px;
+    font-size: 15px;
+    text-align: left;
+    float: left;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.explain p{
+    line-height: 25px;
+    display: inline-block;
+    width: 90%;
+    font-size: 12px;
+    text-align:left;
+	padding:5px 0;
+    color:#919191;
+}
+.explain a{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    }
+.source{
+    width: 100%;
+    background-color:#fff;
+}
+
+.source h1{
+    width: 93%;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px solid #d2d2d2;
+}
+.source p{
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    width: 97%;
+    
+}
+.source img{
+    float: left;
+    margin: 5px;
+}
+.chapter{
+    width: 100%;
+    text-align: left;
+    background-color:#fff;
+	margin-top:8px;
+}
+.chapter span{
+    color: #ea545d;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.chapter p{
+    width: 93%;
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+footer{
+    width: 80%;
+	margin-top:15px;
+    display: inline-block;
+    background-color:#ea545d;
+    text-align: center;
+    border-radius: 5px;
+}
+footer a{
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+}

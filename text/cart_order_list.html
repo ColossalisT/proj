@@ -1,0 +1,630 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,c hrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/flipsnap.js"></script>
+    <title>学习达人</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/product_list.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<style>
+    .all { width: 100%; height: 502px; overflow: hidden; }
+    .inner { width: 500%; height: 502px;}
+    .inner > div { width: 20%;  height: 500px; float: left;  font-size: 20px;
+        font-weight: bold; text-align: center; }
+    .pointer {overflow: hidden; }
+    .pointer > span { float: left; width: 20%;   }
+</style>
+<header>
+    <a href="javascript:history.back();" style="float:left;margin-left:2%;"><img src="images/return.png" width="20"
+                                                                                 height="20"></a>
+
+    <p>产品列表</p>
+    <!-- 点击刷新本页面 -->
+    <a href="#">
+        <img src="images/Refresh.png" width="20" height="20"> </a>
+</header>
+<main>
+    <article>
+        <div class="pointer" id="pointer">
+            <span class="color" data-id="0">宝宝用</span>
+            <span data-id="1">妈妈用</span>
+            <span data-id="2">老人用</span>
+            <span data-id="3">大人用</span>
+            <span data-id="4">其他</span>
+        </div>
+        <div class="all">
+            <div class="inner">
+                <div class="block_wrapper">
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">付款</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">确认收货</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">评论</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">退款中</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_wrapper">
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">付款</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">确认收货</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">评论</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">退款中</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_wrapper">
+                    <div class="section">
+                    <div class="list">
+                        <a href="message_detail.html">
+                            <div class="icon_tou">
+                                <img src="images/product_01.png" width="70" height="70">
+                            </div>
+                            <ul>
+                                <li class="list_one">
+                                    <h1>明一企业</h1>
+                                    <span>2015-10-10</span>
+                                </li>
+                                <li class="list_tow">
+                                    <span>金领健米粉</span>
+                                </li>
+                                <li class="list_three">
+                                    <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                    <a href="#" class="state_btn">付款</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">确认收货</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">评论</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">退款中</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_wrapper">
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">付款</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">确认收货</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">评论</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">退款中</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="block_wrapper">
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">付款</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">确认收货</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">评论</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                        <a href="#" class="state_btn">退款中</a>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="list">
+                            <a href="message_detail.html">
+                                <div class="icon_tou">
+                                    <img src="images/product_01.png" width="70" height="70">
+                                </div>
+                                <ul>
+                                    <li class="list_one">
+                                        <h1>明一企业</h1>
+                                        <span>2015-10-10</span>
+                                    </li>
+                                    <li class="list_tow">
+                                        <span>金领健米粉</span>
+                                    </li>
+                                    <li class="list_three">
+                                        <span>&yen;&nbsp;299</span><span>数量&nbsp;:&nbsp;1</span>
+                                    </li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</main>
+<script>
+    $(function () {
+        //var flipsnap = Flipsnap('.inner', {
+        //    distance: 602,
+        //    disableTouch: true     //true 鼠标不可拖动;  false 鼠标可拖动
+        //});
+        $('.go').click(function () {
+            flipsnap.toNext();    //移动到下一元素
+            //flipsnap.toPrev();    //移动到上一元素
+
+        });
+        $("#pointer span").click(function () {
+            flipsnap.toNext();
+            flipsnap.moveToPoint($(this).attr("data-id"));
+        });
+        var $pointer = $('.pointer span');
+        var flipsnap = Flipsnap('.inner', { distance: 20 });
+        flipsnap.element.addEventListener('fsmoveend', function () {
+            $pointer.filter('.color').removeClass('color');            //filter 为jquery的筛选器，筛选出与指定表达式匹配的元素集合
+            $pointer.eq(flipsnap.currentPoint).addClass('color');
+        }, false);
+    });
+</script>
+</body>
+</html>
